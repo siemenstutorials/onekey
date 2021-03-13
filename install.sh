@@ -767,6 +767,7 @@ update_sh() {
 
 update_sh
 echo && echo -e "Gost 一键安装配置脚本"${Red_font_prefix}[${shell_version}]${Font_color_suffix}"
+_____________________________________________________
 Version: Gost 一键安装配置脚本 V1.0                           
 Website: https://siemenstutorials.pw                      
 Author:  SiemensTutorials                                 
@@ -775,7 +776,7 @@ Youtube: https://www.youtube.com/c/siemenstutorials
         (2)支持tcp+udp不加密转发
         (3)支持中转机加密转发 
         (4)支持落地机解密对接和转发
-
+_____________________________________________________
  ${Green_font_prefix}1.${Font_color_suffix} 安装 gost
  ${Green_font_prefix}2.${Font_color_suffix} 更新 gost
  ${Green_font_prefix}3.${Font_color_suffix} 卸载 gost
