@@ -766,9 +766,12 @@ update_sh() {
 }
 
 update_sh
-echo && echo -e "                 gost 一键安装配置脚本"${Red_font_prefix}[${shell_version}]${Font_color_suffix}"
-  ----------- siemenstutorials -----------
-  特性: (1)支持Reboot转发不失效
+echo && echo -e "Gost 一键安装配置脚本"${Red_font_prefix}[${shell_version}]${Font_color_suffix}"
+Version: Gost 一键安装配置脚本 V1.0                           
+Website: https://siemenstutorials.pw                      
+Author:  SiemensTutorials                                 
+Youtube: https://www.youtube.com/c/siemenstutorials  
+特性: (1)支持Reboot转发不失效
         (2)支持tcp+udp不加密转发
         (3)支持中转机加密转发 
         (4)支持落地机解密对接和转发
