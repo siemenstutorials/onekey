@@ -765,9 +765,9 @@ update_sh() {
 
 }
 update_sh
-echo && echo -e "Gost 一键安装配置脚本"${Red_font_prefix} V1.0${Font_color_suffix}"
+echo && echo -e "             ${Green_font_prefix}Gost一键安装配置脚本${Font_color_suffix}"${Green_font_prefix} V1.0${Font_color_suffix}"
 _____________________________________________________
-Version: Gost 一键安装配置脚本 V1.0                           
+
 Website: https://siemenstutorials.pw                      
 Author:  SiemensTutorials                                 
 Youtube: https://www.youtube.com/c/siemenstutorials  
