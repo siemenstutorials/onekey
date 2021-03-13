@@ -764,9 +764,8 @@ update_sh() {
   fi
 
 }
-
 update_sh
-echo && echo -e "Gost 一键安装配置脚本"${Red_font_prefix}[${shell_version}]${Font_color_suffix}"
+echo && echo -e "Gost 一键安装配置脚本"${Red_font_prefix} V1.0${Font_color_suffix}"
 _____________________________________________________
 Version: Gost 一键安装配置脚本 V1.0                           
 Website: https://siemenstutorials.pw                      
@@ -780,17 +779,17 @@ _____________________________________________________
  ${Green_font_prefix}1.${Font_color_suffix} 安装 gost
  ${Green_font_prefix}2.${Font_color_suffix} 更新 gost
  ${Green_font_prefix}3.${Font_color_suffix} 卸载 gost
-————————————
+
  ${Green_font_prefix}4.${Font_color_suffix} 启动 gost
  ${Green_font_prefix}5.${Font_color_suffix} 停止 gost
  ${Green_font_prefix}6.${Font_color_suffix} 重启 gost
-————————————
- ${Green_font_prefix}7.${Font_color_suffix} 新增gost转发配置
- ${Green_font_prefix}8.${Font_color_suffix} 查看现有gost配置
- ${Green_font_prefix}9.${Font_color_suffix} 删除一则gost配置
-————————————
- ${Green_font_prefix}10.${Font_color_suffix} gost定时重启配置
-————————————" && echo
+
+ ${Green_font_prefix}7.${Font_color_suffix} 新增gost转发
+ ${Green_font_prefix}8.${Font_color_suffix} 查看gost转发
+ ${Green_font_prefix}9.${Font_color_suffix} 删除gost转发
+
+ ${Green_font_prefix}10.${Font_color_suffix} gost定时重启
+" && echo
 read -e -p " 请输入数字 [1-9]:" num
 case "$num" in
 1)
