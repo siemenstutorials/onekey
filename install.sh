@@ -757,7 +757,7 @@ clear
 echo && echo -e "             ${Green_font_prefix}Gost一键安装配置脚本${Font_color_suffix}"${Green_font_prefix} v2.11.1 ${Font_color_suffix}"
 _____________________________________________________
 
-Website: https://siemenstutorials.pw                      
+Website: https://siemenstutorials.com                      
 Author:  SiemensTutorials                                 
 Youtube: https://www.youtube.com/c/siemenstutorials  
 特性: 支持Reboot转发不失效|TCP+UDP转发|隧道中转|负载均衡
