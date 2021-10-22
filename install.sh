@@ -119,12 +119,12 @@ function Install_ct() {
   systemctl enable gost && systemctl restart gost
   echo "------------------------------"
   if test -a /usr/bin/gost -a /usr/lib/systemctl/gost.service -a /etc/gost/config.json; then
-    echo "gost安装成功"
+    echo "\033[32m GOST安装成功 \033[0m"
     rm -rf "$(pwd)"/gost
     rm -rf "$(pwd)"/gost.service
     rm -rf "$(pwd)"/config.json
   else
-    echo "安装失败，请在Github提交issue"
+    echo "\033[31m GOST安装失败 \033[0m"
     rm -rf "$(pwd)"/gost
     rm -rf "$(pwd)"/gost.service
     rm -rf "$(pwd)"/config.json
@@ -136,7 +136,7 @@ function Uninstall_ct() {
   rm -rf /usr/lib/systemd/system/gost.service
   rm -rf /etc/gost
   rm -rf "$(pwd)"/install.sh
-  echo "GOST已经成功删除"
+  echo "GOST已删除"
 }
 function Start_ct() {
   systemctl start gost
