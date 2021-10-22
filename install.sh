@@ -754,7 +754,7 @@ update_sh() {
 
 }
 clear
-echo && echo -e "             ${Green_font_prefix}Gost一键安装配置脚本${Font_color_suffix}"${Green_font_prefix} V1.0${Font_color_suffix}"
+echo && echo -e "             ${Green_font_prefix}Gost一键安装配置脚本${Font_color_suffix}"${Green_font_prefix} v2.11.1 ${Font_color_suffix}"
 _____________________________________________________
 
 Website: https://siemenstutorials.pw                      
