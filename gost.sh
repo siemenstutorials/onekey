@@ -859,7 +859,7 @@ update_sh() {
 }
 
 clear
-echo && echo -e "                 GOST 一键安装脚本"${Red_font_prefix}[${shell_version}]${Font_color_suffix}"
+echo && echo -e "                 GOST 一键安装脚本"${Red_font_prefix} 2.11.1 ${Font_color_suffix}"
 ---------------------------------------------------------------
 Website: https://siemenstutorials.com                      
 Author:  SiemensTutorials                                 
